@@ -1,8 +1,10 @@
 #设置哪些文件该过滤
 
-data/   #表示过滤这个文件夹
-.idea/
-#*.zip   #过滤zip后缀文件
+deeplearn/conv/data/**   #表示过滤这个文件夹
+deeplearn/.idea/**
+deeplearn/data/**
+*.png   #过滤zip后缀文件
+*.jpg
 #demo.html   #过滤该文件
 #
 ##反向操作，设置哪些文件不该过滤
